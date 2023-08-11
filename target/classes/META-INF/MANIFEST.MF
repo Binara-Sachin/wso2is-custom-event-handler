@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1691383124023
+Build-Jdk: 1.8.0_302
+Built-By: binara
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.custom.event.handler
+Bundle-SymbolicName: org.wso2.custom.event.handler
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.wso2.custom.event.handler;uses:="org.wso2.carbon.ide
+ ntity.event,org.wso2.carbon.identity.event.event,org.wso2.carbon.identi
+ ty.event.handler";version="1.0.0.SNAPSHOT"
+Import-Package: org.apache.commons.logging;version="[1.2,2)",org.osgi.fr
+ amework;version="[1.9,2)",org.osgi.service.component;version="[1.2,2)",
+ org.wso2.carbon.identity.event;version="[5.17,6)",org.wso2.carbon.ident
+ ity.event.event;version="[5.17,6)",org.wso2.carbon.identity.event.handl
+ er;version="[5.17,6)",org.wso2.custom.event.handler
+Service-Component: OSGI-INF/serviceComponents.xml
+Tool: Bnd-2.1.0.20130426-122213
